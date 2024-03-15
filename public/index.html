@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chat Application</title>
+  </head>
+  <body>
+    <div class="join-container">
+      <header class="joiner-header">
+        <h1>Chat</h1>
+      </header>
+      <main class="join-main">
+        <form action="chat.html">
+          <div class="form-control">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter Username"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="chatroom">Chat Room</label>
+            <select name="chatroom" id="chatroom">
+              <option value="Frontend">Frontend</option>
+              <option value="Backend">Backend</option>
+              <option value="Fullstack">Fullstack</option>
+              <option value="Devops">Devops</option>
+            </select>
+          </div>
+          <div class="flex">
+            <button type="submit" class="btn">Start chat</button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
